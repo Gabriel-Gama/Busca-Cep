@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
+    "start": "node dist/server.js",
+    "build": "npx tsc",
     "dev": "npx ts-node-dev ./server.ts"
   },
   "dependencies": {
